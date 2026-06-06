@@ -1,8 +1,8 @@
 # lvdousha-skills
 
-> Claude Code 技能集合——lvdousha 的实用技能库
+> Claude Code 技能聚合仓库——日常收集整理自社区的实用技能合集
 
-本仓库包含大量 **Claude Code** 可用的技能（skills），涵盖学术研究、论文写作、代码审查、UI 设计、专利分析、AI 开发等多个领域。部分技能来自社区贡献（[wncfht](https://github.com/wncfht) 等）。
+本仓库收录了大量 **Claude Code** 可用的技能（skills），涵盖学术研究、论文写作、代码审查、UI 设计、专利分析、AI 开发等多个领域。绝大多数技能为社区收集整理，非原创。来源包括 oh-my-claude-code、社区成员及网络资源。
 
 ## 结构
 
@@ -32,10 +32,11 @@ lvdousha-skills/
 
 ## 来源
 
-| 来源 | 包含技能 |
-|------|---------|
-| lvdousha (本仓库) | 100+ 原创技能（学术、写作、UI、专利等） |
+| 来源 | 说明 |
+|------|------|
+| 社区收集 | 绝大多数技能来自开源社区，原作者请参考各 SKILL.md 内的注释 |
 | [wncfht](https://github.com/wncfht) | memory-skill, agent-basic-skill, writing-skills 中的 25+ 技能 |
+| oh-my-claude-code | CCG 工作流框架、部分 ccg 领域知识 |
 
 ## 使用方法
 
