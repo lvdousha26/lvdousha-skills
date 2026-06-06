@@ -1,0 +1,41 @@
+{
+  "model": {
+    "type": "classifier",
+    "architecture": "SimpleClassifier",
+    "input_dim": 784,
+    "hidden_dims": [256, 128],
+    "num_classes": 10
+  },
+  "training": {
+    "epochs": 100,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-5,
+    "optimizer": "adam",
+    "loss": "cross_entropy",
+    "scheduler": "plateau",
+    "early_stopping_patience": 10
+  },
+  "data": {
+    "data_dir": "./data",
+    "train_split": 0.7,
+    "val_split": 0.15,
+    "test_split": 0.15,
+    "num_workers": 4,
+    "pin_memory": true,
+    "augmentation": false
+  },
+  "system": {
+    "device": "cuda",
+    "use_amp": true,
+    "random_seed": 42,
+    "deterministic": true
+  },
+  "logging": {
+    "save_interval": 10,
+    "log_dir": "./logs",
+    "checkpoint_dir": "./checkpoints",
+    "tensorboard": false,
+    "wandb": false
+  }
+}
